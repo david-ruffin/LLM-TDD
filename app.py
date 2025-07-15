@@ -3,7 +3,6 @@
 import http.server
 import socketserver
 import os
-from urllib.parse import urlparse
 
 PORT = 8000
 
