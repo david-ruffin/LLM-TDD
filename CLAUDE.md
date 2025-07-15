@@ -51,10 +51,16 @@ The project follows 10 progressive milestones:
 
 ## Development Rules
 
+- **Always use virtual environment**: Run `source venv/bin/activate` before any Python work
+- **Use MCP servers**: Context7 for documentation, GitHub MCP for version control
 - **Strict TDD**: Each milestone must pass its test before proceeding to the next
 - **No jumping ahead**: Complete milestones in order
 - **Clear pass/fail criteria**: Each test has measurable success conditions
+- **Commit each milestone**: After test passes, commit milestone to GitHub before proceeding
 - **Iterative refinement**: Build on previous milestones without breaking them
+- **Documentation and Submission**: 
+  * Always use MCP servers (Context7) for documentation references
+  * Submit each completed milestone to GitHub after definitive test completion
 
 ## File Structure (Target)
 ```
