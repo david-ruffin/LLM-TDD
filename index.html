@@ -12,5 +12,20 @@
     <button id="testButton" type="button">Click Me</button>
     
     <div id="result"></div>
+
+    <script>
+        document.getElementById('testButton').addEventListener('click', function() {
+            console.log('Request sent');
+            
+            fetch('/api/test')
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Response received:', data);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        });
+    </script>
 </body>
 </html>
